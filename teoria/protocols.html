@@ -1,0 +1,37 @@
+<head>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <p>Existono due protocoli più representativi per la capa di trasporto. Questi sono i TCP e l'UDP</p>
+    <h2>TCP</h2>
+    <p>TCP viene di <em>"Transmission Control Protocol"</em> si usa nelle comunicazioni traverso la rete. E un protocolo di comunicazione orientato alla conessione, punto a punto e affidabile. Trasmite l'informazione finché non arriva un timeout o una signale di <em>acknowledgment</em> che invia il cliente quando ha finito di scaricare tutti i dati aspettanti.</p>
+    <h2>UDP</h2>
+    <p>E un protocolo senza conessione o <em>connectionless</em> usato per stabilire in minimo di toleranza e alla volta una perdida di latenza per l'invio di pacchetti tramite internet. Quindi scambia bassa latenza per alta affidabilità</p>
+    <p>A continuazione, illustriamo con una imagine la diferenza fra TCP e UDP:</p>
+    <img class=center src="resources/udp-tcp.jpg"></img>
+
+    <h2>SSL</h2>
+    <p>SSL viene di <em>"Secure Sockets Layer"</em> e serve per mantenere la conessione sicura in internet salvaguardando qualsiasi informazione sensibile che s'invia fra sue sistemi, dificoltando ai criminali di leggere e modificare la informazione trasferita, inclusa informazione di carattere personale.
+
+        Questo è posibile grazie a che questo protocolo si assicura che qualsiasi informazione trasferita traverso siti e utenti, o traverso due sistemi rimanga imposibile di leggere. Usa algoritmi di encriptazione per mescolare l'informazione transportata.
+            
+        TLS <em>(Transport Layer Security)</em> è un aggiornamento del protocolo SSL.</p>
+    <div class=center style="width: 100%">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-5">
+                <img style="width: 100%;" src="resources/tcp.gif" />
+                <span style="float: right;">source <a href="https://www.ibm.com/support/knowledgecenter/SSB23S_1.1.0.12/gtps7/s5tcpcf.html">IBM</a></span>
+            </div>
+            
+            <div class="col-5">
+                <img style="width: 100%;" src="resources/ssl.gif" />
+                <span style="float: right;">source <a href="https://www.ibm.com/support/knowledgecenter/SSB23S_1.1.0.12/gtps7/s5sslsf.html">IBM</a></span>
+            </div>
+            
+            <div class="col"></div>
+        </div>
+    </div>
+</body>
